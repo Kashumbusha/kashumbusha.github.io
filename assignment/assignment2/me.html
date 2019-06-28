@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal WEbsite</title>
+    <link rel="stylesheet" href="..\css/bootstrap.css">
+    <link rel="shortcut icon" href="images/css/all.css" type="image/x-icon">
+    <style>
+        .img1{
+            height: 20%;
+            width: 15%;
+        }
+        .img2{
+            height: 90%;
+            width: 70%;
+        }
+        .bg-1 { 
+            background-color: #1abc9c; /* Green */
+            color: #ffffff;
+        }
+        .bg-2 { 
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 { 
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+            margin-top: 40px;
+        }
+        .navbar {
+            overflow: hidden;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+            height: 30px;
+            position: fixed;
+            top: 0;
+            width: 100%;            
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+        .bg-4 { 
+            background-color: #2f2f2f;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#who">WHO</a></li>
+                    <li><a href="#what">WHAT</a></li>
+                    <li><a href="#where">WHERE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center" id="who">
+        <h3>Who Am I?</h3>
+        <img src="images/Stephen.JPG" class="img-circle img1 img-responsive" alt="Bird" style="margin-left: 0%; display: inline;" >
+        <h3>I'm an adventurer</h3>
+    </div>   
+    <div class="container-fluid bg-2 text-center" id="what">
+        <h3>What Am I?</h3>
+        <p>My name is Kashumbusha Stephen. I am 22 years Old. My birthday is 16th/Jun. 
+            I am a computer science student at Cavendish University Uganda. Currently Pursuing my Diploma in 
+            Computer Science And IT. I am doing an interesting internship at young firm in Bugolobi.
+            This firm has helped me to put to test the many years of hardwork and study that i hav acquired through my
+            school studies of different levels. Am glad that my efforts have been noticed by my directors and 
+            its their goal to see how they can prepare me for a successful career in this job proffession.
+        </p>
+        <a href="#" class="btn btn-default btn-lg"> 🔍🔎🔍🔎⛵⛵</a>
+
+    </div>      
+    <div class="container-fluid bg-3 text-center">
+        <h3 id="where">Where To Find Me?</h3>
+        <div class="rows">
+            <div class="col-sm-4">
+                <p>My home is in Bweyogerere-WellSpring, Kazinga. Kira municipality Wakiso District.
+                    We are neighboured with mokono in the East and Kampala in the west and South. Not sure of the North.😁😁
+                    My house is strangely on an Unnamed Rd if searched on google maps and it has been my wish for some time to have it 
+                    named ...after my name 🤣🤣
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/house.jpg" class="img2 img-responsive" alt="house" style="margin-left: 15%">
+
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    ...but we are close to a road called Segujja Rd and Wellspring Rd and The famous Butto Rd.
+                    I am not at home most days only returning from my days work late evenings most days of the week.
+                    I spend most of my day's time at my internships in Kabalagala and Bugolobi or at Church on Sunday Morning.
+                    My Church name is Oasis Church Located in Kazinga, Bweyogerere.
+                </p>
+            </div>
+        </div>
+        <!-- <p>My home is in Bweyogerere-WellSpring, Kazinga. Kira municipality Wakiso District.
+            We are neighboured with mokono in the East and Kampala in the west and South. Not sure of the North.😁😁
+            My house is strangely on an Unnamed Rd if searched on google maps and it has been my wish for some time to have it 
+            named ...after my name 🤣🤣 but we are close to a road called Segujja Rd and Wellspring Rd and The famous Butto Rd.
+            I am not at home most days only returning from my days work late evenings most days of the week.
+            I spend most of my day's time at my internships in Kabalagala and Bugolobi or at Church on Sunday Morning.
+            My Church name is Oasis Church Located in Kazinga, Bweyogerere.
+                   
+        </p> -->
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+            <p>Bootstrap Theme Made By KashumbushaStephen</a></p> 
+    </footer>     
+<script src="..\js/jquery-3.4.1.js"></script>
+<script src="..\js/bootstrap.js"></script>
+</body>
+</html>

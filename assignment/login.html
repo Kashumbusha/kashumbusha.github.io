@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        img{
+            width: 30%;
+            height: 5%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>  
+    <div class="row">  
+        <h2 class="col-lg-9">Login Form</h2>
+        <div class="col-md-3">
+            <p>Don't have an account? <a href="index.html">Sign up.</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <form action="/action_page.php" class="col-md-6">
+            <div class="img">
+                <img src="avatar.png">
+            </div>
+
+            <div class="container">
+                <div class="form-group"> 
+                    <label><b>Username</b></label><br>
+                    <input class="form-control" type="text" placeholder="Enter Username" name="uname" required>
+                </div>             
+                <div class="form-group"> 
+                        <label><b>Password</b></label><br>
+                        <input class= "form-control" type="password" placeholder="Enter Password" name="psw" required style="padding-bottom: 0.25rem">
+                </div>
+                
+                <div class="form-group"> 
+                    <button type="submit" style="margin-top: 0.5rem">Login</button>           
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+                
+            </div>
+            <div class="container p-md-1" style="background-color:#f1f1f1">
+                <span>Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
